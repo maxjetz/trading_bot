@@ -1,0 +1,25 @@
+{
+    "binance": {
+        "api_key": "BINANCE_API_KEY",
+        "api_secret": "BINANCE_SECRET_KEY"
+    },
+    "training": {
+        "learning_rate": 0.0005,
+        "gamma": 0.95,
+        "gae_lambda": 0.9,
+        "ent_coef": 0.01,
+        "total_timesteps": 200000,
+        "checkpoint_interval": 50000
+    },
+    "environment": {
+        "min_volume": 1000.0,
+        "fee": 0.001,
+        "timeframe": "1m",
+        "data_limit": 100,
+        "risk_limit": 0.05,
+        "growth_limit": 0.5
+    },
+    "market": {
+        "min_volume": 1000.0
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "binance": {
+        "api_key": "mock_api_key",
+        "api_secret": "mock_api_secret"
+    },
+    "training": {
+        "learning_rate": 0.001,
+        "gamma": 0.9,
+        "gae_lambda": 0.95,
+        "ent_coef": 0.02,
+        "total_timesteps": 100000,
+        "checkpoint_interval": 20000
+    },
+    "environment": {
+        "min_volume": 100.0,
+        "fee": 0.002,
+        "timeframe": "1h",
+        "data_limit": 50,
+        "risk_limit": 0.1,
+        "growth_limit": 0.7
+    },
+    "market": {
+        "min_volume": 100.0
+    }
+}
